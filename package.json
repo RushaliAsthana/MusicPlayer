@@ -12,8 +12,9 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeployLive": "npm run build",
+    "deployLive": "npm run cleanup && gh-pages -d build -b deploy -e build",
+    "cleanup": "rm -rf node_modules/gh-pages/.cache",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
