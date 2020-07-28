@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/MusicPlayer/static/css/main.0bb4caf8.chunk.css",
+    "main.js": "/MusicPlayer/static/js/main.f835abde.chunk.js",
+    "main.js.map": "/MusicPlayer/static/js/main.f835abde.chunk.js.map",
+    "runtime-main.js": "/MusicPlayer/static/js/runtime-main.8bb7dbc5.js",
+    "runtime-main.js.map": "/MusicPlayer/static/js/runtime-main.8bb7dbc5.js.map",
+    "static/js/2.0a1e4f3b.chunk.js": "/MusicPlayer/static/js/2.0a1e4f3b.chunk.js",
+    "static/js/2.0a1e4f3b.chunk.js.map": "/MusicPlayer/static/js/2.0a1e4f3b.chunk.js.map",
+    "index.html": "/MusicPlayer/index.html",
+    "precache-manifest.580a94840bc061ee68d52b17ade1baf5.js": "/MusicPlayer/precache-manifest.580a94840bc061ee68d52b17ade1baf5.js",
+    "service-worker.js": "/MusicPlayer/service-worker.js",
+    "static/css/main.0bb4caf8.chunk.css.map": "/MusicPlayer/static/css/main.0bb4caf8.chunk.css.map",
+    "static/js/2.0a1e4f3b.chunk.js.LICENSE.txt": "/MusicPlayer/static/js/2.0a1e4f3b.chunk.js.LICENSE.txt",
+    "static/media/DilIbaadat.mp3": "/MusicPlayer/static/media/DilIbaadat.0467922e.mp3",
+    "static/media/DilIbadat.jpg": "/MusicPlayer/static/media/DilIbadat.f5232b01.jpg",
+    "static/media/KMPH.mp3": "/MusicPlayer/static/media/KMPH.23bdc8fd.mp3",
+    "static/media/KMPH.jpg": "/MusicPlayer/static/media/KMPH.f9304908.jpg",
+    "static/media/Kamli.mp3": "/MusicPlayer/static/media/Kamli.881946ba.mp3",
+    "static/media/LKLP.jpg": "/MusicPlayer/static/media/LKLP.e25d677d.jpg",
+    "static/media/LabonKo.mp3": "/MusicPlayer/static/media/LabonKo.19891678.mp3",
+    "static/media/Muqabla.mp3": "/MusicPlayer/static/media/Muqabla.2a4672a1.mp3",
+    "static/media/StreetDancer.jpg": "/MusicPlayer/static/media/StreetDancer.a0582c5a.jpg",
+    "static/media/Tum Se Hi.mp3": "/MusicPlayer/static/media/Tum Se Hi.87423c72.mp3",
+    "static/media/kamli.jpg": "/MusicPlayer/static/media/kamli.26dda61f.jpg",
+    "static/media/logo.png": "/MusicPlayer/static/media/logo.c68547da.png",
+    "static/media/styles.css": "/MusicPlayer/static/media/sidebarheader.508d790a.png",
+    "static/media/tumsehi.jpg": "/MusicPlayer/static/media/tumsehi.39864735.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8bb7dbc5.js",
+    "static/js/2.0a1e4f3b.chunk.js",
+    "static/css/main.0bb4caf8.chunk.css",
+    "static/js/main.f835abde.chunk.js"
+  ]
+}
