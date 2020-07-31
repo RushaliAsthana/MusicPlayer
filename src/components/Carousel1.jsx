@@ -9,7 +9,7 @@ function CategoryCarousel(props)
    <div className="carousel-inner">
    <CreateSlider fun={props.fun}></CreateSlider>
    </div>
-  
+  <br/>
  </div>
  
 }

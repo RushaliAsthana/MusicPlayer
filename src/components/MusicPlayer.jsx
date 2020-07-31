@@ -1,10 +1,10 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef } from "react";
 
     
 function MusicPlayer(props)
 {
  
-
+ 
   const [isPlaying,musicPlayPause]=useState(true);
   const audio=useRef('audio_tag');
   const [isMute,muteUnmute]=useState(true);
@@ -57,13 +57,13 @@ function MusicPlayer(props)
   
   return (<div  className="footer fixed-bottom cursor"><div className="slidecontainer">
 
-   {repeat?<audio autoPlay loop ref={audio} src={props.musicurl} onLoadedData={()=>musicPlayPause(true)} onCanPlay={(e)=>{setDuration(e.target.duration) 
-   }} preload="auto"
+   {repeat?<audio  autoPlay loop ref={audio} src={props.musicurl} onLoadedData={()=>musicPlayPause(true)} onCanPlay={(e)=>{setDuration(e.target.duration) 
+   }} preload="auto"    
    onTimeUpdate={(e)=> setCurrTime(e.target.currentTime) 
    } onEnded={()=>{
      end()
    }} type="audio/mp3">
-   </audio>:<audio autoPlay ref={audio} src={props.musicurl} onLoadedData={()=>musicPlayPause(true)} onCanPlay={(e)=>{setDuration(e.target.duration) 
+   </audio>:<audio  autoPlay ref={audio} src={props.musicurl} onLoadedData={()=>musicPlayPause(true)} onCanPlay={(e)=>{setDuration(e.target.duration) 
    }} preload="auto"
    onTimeUpdate={(e)=> setCurrTime(e.target.currentTime) 
    } onEnded={()=>{
@@ -73,7 +73,7 @@ function MusicPlayer(props)
      } type="audio/mp3">
    </audio> }
    
-  <input  onChange={handleProgress} value={timeduration ? (currenttime * 100) / timeduration : 0}  type="range"  min="0" step="0.5" className="slider cursor" id="myRange"/>  
+  <input  id="musicscroll"  onChange={handleProgress} value={timeduration ? (currenttime * 100) / timeduration : 0}  type="range"  min="0" step="0.2" className="slider cursor" id="myRange"/>  
 </div>
 <div className="container-fluid">
  <div className="row">
@@ -85,12 +85,12 @@ function MusicPlayer(props)
    <span className="row theme-blue"  id="sname">{props.songname}</span>
    <span className="row" id="aname">{props.artist}</span>
    </div>
-   <div className="col-sm-2 d-flex justify-content-center2">
+   <div className="col d-flex ">
    <i id="baricon" className='fas fa-random fa-lg theme-blue'></i>
    <i id="baricon" onClick={repeatSong}  data-toggle="tooltip" title="Repeat" style={repeat?customStyle:null} className='fas fa-sync fa-lg theme-blue blue  '></i>
    <i id="baricon" className="fa fa-share-alt fa-lg theme-blue" aria-hidden="true"></i>
    </div>
-   <div className="col-sm-4 d-flex justify-content-center">
+   <div className="col d-flex ">
    <i  id="playicons" onClick={props.prevSong}  data-toggle="tooltip" title="Previous" className='fas fa-step-backward fa-lg mt-3 theme-blue blue'></i>
    <i id="playicon" onClick={playPause}  data-toggle="tooltip" title="Play" className={isPlaying?'fas fa-pause-circle fa-3x ml-3 mr-3 theme-pink pink ':'fa fa-play-circle fa-3x ml-3 mr-3 theme-pink pink'}></i>
    <i  id="playicons" onClick={props.nextSong}  data-toggle="tooltip" title="Next" className='fas fa-step-forward fa-lg mt-3 theme-blue blue'></i>

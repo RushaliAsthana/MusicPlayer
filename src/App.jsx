@@ -40,6 +40,7 @@ function App()
     
     function nextSong()
     {
+        
         var arr=music.slice(0,1);
              arr.map((newItem)=>{
             return addSong(newItem)  
@@ -50,7 +51,7 @@ function App()
     {
         var music1=music.slice(music.length-1,music.length);
         music1.map((newItem1)=>{    
-            return addprevSong  (newItem1)  
+            return addprevSong(newItem1)  
         })
         
     }
@@ -81,9 +82,10 @@ function App()
          }
          </div>
         </div>
-        <div className=" offset-1 col offset-1"  >
+        <div id="displaycontainer" className="col overflow-auto ">
+        <div className=" offset-2">
         <div className="row"  id="recommedation">
-           <h4 className="ml-5 mt-3 theme-pink text-shadow" >RECOMMENDED</h4>
+           <h4 className="ml-5 mt-3 theme-pink " >RECOMMENDED</h4>
             <Carousel title="recom" fun={addSong}></Carousel>
         </div>
         <div className="row" id="recommedation1">
@@ -91,6 +93,7 @@ function App()
             <Carousel1 fun={addSong} title="cat1"></Carousel1>
             <p className="ml-5 pt-2 mb-2 theme-pink ">CATEGORY 2</p>
             <Carousel1 fun={addSong} title="cat2"></Carousel1>
+        </div>
         </div>
         </div>
     </div>

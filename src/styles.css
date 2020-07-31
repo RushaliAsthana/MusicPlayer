@@ -96,14 +96,14 @@ nav{
 }
 #recommedation,#recommedation1{
     background-color: #f7f5f8;
-    height: 30vh;
+    height: auto;
     margin-top: 20px;
     margin-left: -100px;
     margin-right: 3%;
     box-shadow: 4px 4px 4px rgba(216, 211, 211, 0.6);
 }
 #recommedation1{
-    height: 42vh;
+    height:auto;
 }
 #ok,#activemusic{
     /* border: 1px solid black; */
@@ -136,7 +136,6 @@ nav{
 }
 
 .demo {
-    height: 20vh;
     width: 90% ;
     margin-left: 50px;
 }
@@ -154,7 +153,7 @@ nav{
 
 .fa-chevron-circle-left{
     position: absolute;
-    left: -6%;
+    left: -7%;
     top:30%;
     
 }
@@ -209,10 +208,17 @@ nav{
     cursor: pointer;
 }
 .musiccard{
-    padding-top: 3px;
+    padding-top: 10px;
 }
 .musiccard:hover{
     background-color: #e4b9fd;
     transition: ease-in-out 0.5s;
     border-radius: 5px;
+}
+#musicscroll{
+    -webkit-appearance: none;
+}
+#displaycontainer{
+   
+    height: 75vh;
 }
