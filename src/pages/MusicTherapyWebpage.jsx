@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import NavBar from "./components/NavigationBar";
-import MusicBar from "./components/MusicPlayer";
-import PlayList from "./components/Playlist";
-import Carousel from "./components/MusicCarousel";
-import Carousel1 from "./components/Carousel1";
-import './styles.css';
+import NavBar from "../components/NavigationBar";
+import MusicBar from "../components/MusicPlayer";
+import PlayList from "../components/Playlist";
+import Carousel from "../components/MusicCarousel";
+import Carousel1 from "../components/Carousel1";
+import '../styles.css';
 function App()
 {
     const [playsong,toggleSong]=useState(false);

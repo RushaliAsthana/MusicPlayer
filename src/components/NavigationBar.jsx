@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "./images/logo.png";
-import FaUser from "./images/fa-user.png";
+import Logo from "./assets/images/logo.png";
+import FaUser from "./assets/images/fa-user.png";
 function NavigationBar()
 {
       return <nav className="navbar navbar-expand-sm ">

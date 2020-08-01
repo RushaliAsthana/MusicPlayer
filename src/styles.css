@@ -83,7 +83,7 @@ nav{
 #sidebar-header
 {
     /* background-color: #ed257a; */
-    background-image: url("./components/images/sidebarheader.png");
+    background-image: url("./components/assets/images/sidebarheader.png");
     background-repeat: no-repeat;
     background-size: 100% 20vh;
     height: 20vh;
