@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/MusicPlayer/static/css/main.dd805e8c.chunk.css",
-    "main.js": "/MusicPlayer/static/js/main.bf4c1a29.chunk.js",
-    "main.js.map": "/MusicPlayer/static/js/main.bf4c1a29.chunk.js.map",
+    "main.css": "/MusicPlayer/static/css/main.e33440b5.chunk.css",
+    "main.js": "/MusicPlayer/static/js/main.9fdf5e62.chunk.js",
+    "main.js.map": "/MusicPlayer/static/js/main.9fdf5e62.chunk.js.map",
     "runtime-main.js": "/MusicPlayer/static/js/runtime-main.8bb7dbc5.js",
     "runtime-main.js.map": "/MusicPlayer/static/js/runtime-main.8bb7dbc5.js.map",
     "static/js/2.d5db5132.chunk.js": "/MusicPlayer/static/js/2.d5db5132.chunk.js",
     "static/js/2.d5db5132.chunk.js.map": "/MusicPlayer/static/js/2.d5db5132.chunk.js.map",
     "index.html": "/MusicPlayer/index.html",
-    "precache-manifest.e7854289e0016246fc073fd24694b801.js": "/MusicPlayer/precache-manifest.e7854289e0016246fc073fd24694b801.js",
+    "precache-manifest.afc00ddfebc2c64bf3cb49093a546728.js": "/MusicPlayer/precache-manifest.afc00ddfebc2c64bf3cb49093a546728.js",
     "service-worker.js": "/MusicPlayer/service-worker.js",
-    "static/css/main.dd805e8c.chunk.css.map": "/MusicPlayer/static/css/main.dd805e8c.chunk.css.map",
+    "static/css/main.e33440b5.chunk.css.map": "/MusicPlayer/static/css/main.e33440b5.chunk.css.map",
     "static/js/2.d5db5132.chunk.js.LICENSE.txt": "/MusicPlayer/static/js/2.d5db5132.chunk.js.LICENSE.txt",
     "static/media/DilIbaadat.mp3": "/MusicPlayer/static/media/DilIbaadat.0467922e.mp3",
     "static/media/DilIbadat.jpg": "/MusicPlayer/static/media/DilIbadat.f5232b01.jpg",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.8bb7dbc5.js",
     "static/js/2.d5db5132.chunk.js",
-    "static/css/main.dd805e8c.chunk.css",
-    "static/js/main.bf4c1a29.chunk.js"
+    "static/css/main.e33440b5.chunk.css",
+    "static/js/main.9fdf5e62.chunk.js"
   ]
 }
